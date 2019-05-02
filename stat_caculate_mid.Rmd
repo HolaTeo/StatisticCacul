@@ -1,0 +1,114 @@
+---
+title: "2019statcacul"
+author: "HolaTeo"
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    toc: false
+  html_document:
+    df_print: paged
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+mainfont: NanumGothic
+---
+install.packages("foreach")
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(tinytex.verbose = TRUE)
+```
+
+```{r Tidyverse, message=FALSE, warning=FALSE, include=FALSE}
+
+library(tidyverse)
+library(dplyr)
+library(foreach)
+```
+
+#Q1
+##
+```{r coin}
+coin <- function(prob=0.3, bet=1, Pe = 6, Pa = 4){
+ rec <- tibble(a = Pe, b = Pa)
+ while(all(rec>0)){
+    u <- runif(1)
+   Pe <- ifelse(u<prob, Pe+bet,Pe-bet)
+   Pa <- ifelse(u>=prob, Pa+bet,Pa-bet)
+   rec <- rec %>% bind_rows(c(a=Pe, b=Pa))
+   if(Pe==0 | Pa==0) break() 
+ }
+ rec %>% mutate(idx = 1:n())  %>%
+   select(a, b) %>% 
+   summarise(Gamesu=n(), who_win=ifelse(last(a)==0, "Paul Win!","Peter Win!"), PeterMoney=mean(a))
+}
+
+(resault <- coin(prob=0.3, bet=1, Pe=6, Pa=4))
+```
+
+##
+```{r coin2}
+
+rep <- foreach(i=1:1000, .combine = bind_rows) %do%
+               {
+                 coin()
+} %>% 
+  summarise(Peter_Win_Prob=mean(who_win=="Peter Win!"),Game_Time=mean(Gamesu),Peter_Money_Mean=mean(PeterMoney))
+
+(resault2 <- rep)
+```
+
+#Q2
+
+project 6.B
+correlation : pearson corr & spearman
+H0 : rho=0 이 참일 때 rho.hat들의 분포를 찾음
+
+$Corr($ $X_1, ... , X_n$, sample(c($Y_1,...,Y_n$)))
+
+library(mvtnorm)
+
+n<-20
+m<-1000
+rho<- c(seq(0,1,length=20)) #alternative
+
+
+#Q3
+
+##
+m <-10000
+x <-rcaushy(m)
+theta.hat[1]<-mean(x)
+print(theta.hat[1])
+
+
+
+##
+x<-rcaushy(m)
+fg <- as.numeric(x>0 & x<=.5)
+theta.hat[2] <- mean(fg)
+print(theta.hat[2])
+
+###
+x<-2/runif(m)
+fg <- 1/(2*pi*(1+1/x^2))
+theta.hat[2] <- mean(fg)
+print(theta.hat[2])
+
+###
+x<-runif(m, 0, 0.5)
+fg <- dcauchy(x)/2
+theta.hat[2]<-mean(fg)
+print(theta.hat[2])
+
+
+
+##
+x <- runif(m, 0, 2)
+y <- runif(m, min=0, max=dcaushy(0))
+est <- 1/2 - sum(as.numeric(y<=dcauchy(0)))
+
+
+##
+
+##
