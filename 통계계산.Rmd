@@ -1,0 +1,16 @@
+---
+title: "2019statcacul"
+author: "HolaTeo"
+output:
+  pdf_document: 
+    latex_engine: xelatex
+  word_document: default
+mainfont: NanumGothic
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(tinytex.verbose = TRUE)
+```
+
+asd

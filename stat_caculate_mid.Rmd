@@ -13,6 +13,7 @@ output:
 mainfont: NanumGothic
 ---
 install.packages("foreach")
+install.packages("tidyverse")
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -20,7 +21,6 @@ options(tinytex.verbose = TRUE)
 ```
 
 ```{r Tidyverse, message=FALSE, warning=FALSE, include=FALSE}
-
 library(tidyverse)
 library(dplyr)
 library(foreach)
@@ -70,45 +70,105 @@ library(mvtnorm)
 
 n<-20
 m<-1000
-rho<- c(seq(0,1,length=20)) #alternative
+rho0 <- 0
+rho <- c(seq(-1,1,length=40)) #alternative
+M <- length(rho)
+power1 <-
+power2 <-
+power3 <-
+
+rhotest <- cor.test(samp[,1], samp[,2], method="pearson", rhotest$p.value)
+        <- cor.test(samp[,1], samp[,2], method="kendal", rhotest$p.value)
+
+plot(rho, power1, type="l")
+lines(rho, power2, lty=1)
+lines(rho, power3, lty=2)
 
 
 #Q3
 
 ##
-m <-10000
-x <-rcaushy(m)
-theta.hat[1]<-mean(x)
-print(theta.hat[1])
+```{r MCBase}
+m<-10000
+mc <- function(m){
+x <-rcauchy(m)
+fg <- as.numeric(x>2)
+a1 <- mean(fg)
+return(a1)
+}
+mc(m)
+```
 
-
-
-##
-x<-rcaushy(m)
-fg <- as.numeric(x>0 & x<=.5)
-theta.hat[2] <- mean(fg)
-print(theta.hat[2])
-
-###
+##important sampling
+```{r important1}
+mc.impo1 <- function(m){
 x<-2/runif(m)
-fg <- 1/(2*pi*(1+1/x^2))
-theta.hat[2] <- mean(fg)
-print(theta.hat[2])
+fg <- 1/(2*(pi*(1+1/x^2)))
+b1 <- mean(fg)
+return(b1)
+}
+mc.impo1(m)
+```
 
-###
+
+### important sampling2
+```{r impotant2}
+mc.impo2 <- function(m){
 x<-runif(m, 0, 0.5)
 fg <- dcauchy(x)/2
-theta.hat[2]<-mean(fg)
-print(theta.hat[2])
+b2<-mean(fg)
+return(b2)
+}
+mc.impo2(m)
+```
 
 
-
-##
+##hit or miss
+```{r hit}
+mc.hit <- function(m){
 x <- runif(m, 0, 2)
-y <- runif(m, min=0, max=dcaushy(0))
-est <- 1/2 - sum(as.numeric(y<=dcauchy(0)))
+y <- runif(m, min=0, max=dcauchy(0))
+est <- 1/2 - sum(as.numeric(y<=dcauchy(x)))/m*(2*dcauchy(0)) #2*decauchy(0)은 전체 면적,sum(as.numeric(y<=dcauchy(0)))/m 은 hit한 비율
+est
+}
+mc.hit(m)
+```
 
 
-##
+##control var
+```{r conval}
+mccontrol <- function(m){
+x <- runif(m, 0,0.5)
+g <- dcauchy(x)/2
+f1 <- x^2
+f2 <- x^4
+muf1 <- 1/12
+muf2 <- 1/80
+L <- lm(g~f1+f2)
+#est <- mean(g) - L$coeff[2]*(mean(f1)-muf2) - L$coeff[3]*(mean(f2)-muf2)
+est2 <- sum(lm(g ~ f1+f2)$coeff*c(1, muf1, muf2))
+est2
+}
+mccontrol(m)
+```
 
-##
+##var 비교
+```{r vs_var}
+set.seed(1)
+rep11 <- foreach(i=1:100, .combine = bind_rows) %do%
+               { 
+                 tibble(MC1=mc(m),
+                 MC21=mc.impo1(m),
+                 MC22=mc.impo2(m),
+                 MC3=mc.hit(m),
+                 MC4=mccontrol(m))
+} %>% 
+  summarise(base_vs_impo1=sd(MC1)^2/sd(MC21)^2,
+            base_vs_impo2=sd(MC1)^2/sd(MC22)^2,
+            base_vs_hit=sd(MC1)^2/sd(MC3)^2,
+            base_vs_conval=sd(MC1)^2/sd(MC4)^2)
+
+
+
+(resault4 <- rep11)
+```

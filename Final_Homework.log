@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.11)  9 MAY 2019 17:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.2.11)  14 JUN 2019 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**stat_caculate_mid.tex
-(./stat_caculate_mid.tex
+**Final_Homework.tex
+(./Final_Homework.tex
 LaTeX2e <2018-12-01>
 (c:/usr/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -693,35 +693,55 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip58
 \thanksmargin=\skip59
 \droptitle=\skip60
-) (./stat_caculate_mid.aux)
-\openout1 = `stat_caculate_mid.aux'.
+) (c:/usr/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
+\dth@everypar=\toks30
+)
+\c@theorem=\count297
+\c@lemma=\count298
+\c@corollary=\count299
+\c@proposition=\count300
+\c@conjecture=\count301
+\c@definition=\count302
+\c@example=\count303
+\c@exercise=\count304
+(./Final_Homework.aux)
+\openout1 = `Final_Homework.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 145.
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Info: Redefining \microtypecontext on input line 129.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Info: Redefining \microtypecontext on input line 145.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1174,25 +1194,25 @@ Package microtype Info: Character `\quotedblbase ' is missing
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 145.
 (c:/usr/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/usr/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count297
+\c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
-(./stat_caculate_mid.out) (./stat_caculate_mid.out)
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
+(./Final_Homework.out) (./Final_Homework.out)
 \@outlinefile=\write4
-\openout4 = `stat_caculate_mid.out'.
+\openout4 = `Final_Homework.out'.
 
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 17.87787pt on input line 130.
+(Font)              scaled to size 17.87787pt on input line 146.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 10.344pt on input line 130.
+(Font)              scaled to size 10.344pt on input line 146.
 Package microtype Info: Character `\quotesinglbase ' is missing
 (microtype)             in font `\TU/NanumGothic(0)/m/n/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1201,15 +1221,25 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `TU/NanumGothic(0)/m/it' undefined
-(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 130.
+(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 146.
 
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 140.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
+(Font)              scaled to size 12.41278pt on input line 149.
 
 LaTeX Font Warning: Font shape `TU/NanumGothic(0)/bx/n' undefined
-(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 166.
+(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 149.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 193.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
+(Font)              scaled to size 10.344pt on input line 152.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
+(Font)              scaled to size 8.62pt on input line 155.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 155.
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1217,89 +1247,236 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 193.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 155.
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 193
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 155
 .
 (c:/usr/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 193
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 155
 .
 (c:/usr/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 193.
+(Font)              <10> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 193.
+(Font)              <7> on input line 155.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 193.
-LaTeX Font Info:    Try loading font information for U+msa on input line 193.
+(Font)              <5> on input line 155.
+LaTeX Font Info:    Try loading font information for U+msa on input line 155.
 (c:/usr/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/usr/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 193.
+LaTeX Font Info:    Try loading font information for U+msb on input line 155.
 (c:/usr/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/usr/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 169.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 169.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 169.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 6.034pt on input line 206.
+(Font)              scaled to size 6.034pt on input line 189.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
-(Font)              scaled to size 4.31pt on input line 206.
-
-Overfull \hbox (13.02486pt too wide) in paragraph at lines 206--207
-[]\TU/NanumGothic(0)/m/n/10 rhotest <- cor.test(samp[,1], samp[,2], method=“pea
-rson”, rhotest$\OML/lmm/m/it/10 p:value\OT1/lmr/m/n/10 ) \OML/lmm/m/it/10 < \OM
-S/lmsy/m/n/10 ^^@\OML/lmm/m/it/10 cor:test\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 sam
-p\OT1/lmr/m/n/10 [\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 1]\OML/lmm/m/it/10 ; samp\
-OT1/lmr/m/n/10 [\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 2]\OML/lmm/m/it/10 ; method 
-\OT1/lmr/m/n/10 =
- []
-
+(Font)              scaled to size 4.31pt on input line 189.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 10.344pt on input line 215.
-LaTeX Font Info:    Font shape `TU/NanumGothic(0)/bx/n' will be
-(Font)              scaled to size 8.62pt on input line 253.
-Missing character: There is no 은 in font [lmmono10-italic]:!
-Missing character: There is no 전 in font [lmmono10-italic]:!
-Missing character: There is no 체 in font [lmmono10-italic]:!
-Missing character: There is no 면 in font [lmmono10-italic]:!
-Missing character: There is no 적 in font [lmmono10-italic]:!
-Missing character: There is no 은 in font [lmmono10-italic]:!
-Missing character: There is no 한 in font [lmmono10-italic]:!
-Missing character: There is no 비 in font [lmmono10-italic]:!
-Missing character: There is no 율 in font [lmmono10-italic]:!
+(Font)              scaled to size 12.41278pt on input line 233.
+File: 11_5.jpg Graphic file (type bmp)
+<11_5.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+[]
+ []
+
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 245.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
-(./stat_caculate_mid.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 345.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
-Package rerunfilecheck Info: File `stat_caculate_mid.out' has not changed.
-(rerunfilecheck)             Checksum: 76FC70BA131EA0AEA199004FBE1A7290.
+Missing character: There is no 에 in font [lmmono10-italic]:!
+
+Underfull \vbox (badness 6110) detected at line 354
+ []
+
+[4]
+File: 11_6.jpg Graphic file (type bmp)
+<11_6.jpg>
+[5]
+Missing character: There is no 함 in font [lmmono10-italic]:!
+Missing character: There is no 수 in font [lmmono10-italic]:!
+Missing character: There is no 일 in font [lmmono10-italic]:!
+Missing character: There is no 경 in font [lmmono10-italic]:!
+Missing character: There is no 우 in font [lmmono10-italic]:!
+Missing character: There is no 일 in font [lmmono10-italic]:!
+Missing character: There is no 경 in font [lmmono10-italic]:!
+Missing character: There is no 우 in font [lmmono10-italic]:!
+Missing character: There is no 일 in font [lmmono10-italic]:!
+Missing character: There is no 경 in font [lmmono10-italic]:!
+Missing character: There is no 우 in font [lmmono10-italic]:!
+Missing character: There is no 실 in font [lmmono10-italic]:!
+Missing character: There is no 제 in font [lmmono10-italic]:!
+Missing character: There is no 값 in font [lmmono10-italic]:!
+Missing character: There is no 과 in font [lmmono10-italic]:!
+Missing character: There is no 비 in font [lmmono10-italic]:!
+Missing character: There is no 교 in font [lmmono10-italic]:!
+Missing character: There is no 이 in font [lmmono10-italic]:!
+Missing character: There is no 용 in font [lmmono10-italic]:!
+[6]
+File: Final_Homework_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (typ
+e pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-9-1.pdf>
+[7]
+Missing character: There is no 추 in font [lmmono10-italic]:!
+Missing character: There is no 출 in font [lmmono10-italic]:!
+Missing character: There is no 실 in font [lmmono10-italic]:!
+Missing character: There is no 제 in font [lmmono10-italic]:!
+File: 9_8.jpg Graphic file (type bmp)
+<9_8.jpg>
+[8]
+Missing character: There is no 이 in font [lmmono10-italic]:!
+Missing character: There is no 항 in font [lmmono10-italic]:!
+Missing character: There is no 분 in font [lmmono10-italic]:!
+Missing character: There is no 포 in font [lmmono10-italic]:!
+Missing character: There is no 에 in font [lmmono10-italic]:!
+Missing character: There is no 서 in font [lmmono10-italic]:!
+Missing character: There is no 의 in font [lmmono10-italic]:!
+Missing character: There is no 모 in font [lmmono10-italic]:!
+Missing character: There is no 수 in font [lmmono10-italic]:!
+Missing character: There is no 체 in font [lmmono10-italic]:!
+Missing character: There is no 인 in font [lmmono10-italic]:!
+Missing character: There is no 의 in font [lmmono10-italic]:!
+Missing character: There is no 길 in font [lmmono10-italic]:!
+Missing character: There is no 이 in font [lmmono10-italic]:!
+Missing character: There is no 초 in font [lmmono10-italic]:!
+Missing character: There is no 기 in font [lmmono10-italic]:!
+Missing character: There is no 값 in font [lmmono10-italic]:!
+Missing character: There is no 고 in font [lmmono10-italic]:!
+Missing character: There is no 정 in font [lmmono10-italic]:!
+Missing character: There is no 된 in font [lmmono10-italic]:!
+Missing character: There is no 상 in font [lmmono10-italic]:!
+Missing character: There is no 수 in font [lmmono10-italic]:!
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-1.pdf>
+[9]
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-2.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-2.pdf>
+[10]
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-3.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-3.pdf>
+[11]
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-4.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-4.pdf>
+[12]
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-5.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-5.pdf>
+[13]
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-6.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-6.pdf>
+[14]
+File: Final_Homework_files/figure-latex/unnamed-chunk-11-7.pdf Graphic file (ty
+pe pdf)
+<use Final_Homework_files/figure-latex/unnamed-chunk-11-7.pdf>
+[15]
+Missing character: There is no 번 in font [lmmono10-italic]:!
+Missing character: There is no 반 in font [lmmono10-italic]:!
+Missing character: There is no 복 in font [lmmono10-italic]:!
+Missing character: There is no 했 in font [lmmono10-italic]:!
+Missing character: There is no 을 in font [lmmono10-italic]:!
+Missing character: There is no 때 in font [lmmono10-italic]:!
+Missing character: There is no 의 in font [lmmono10-italic]:!
+Missing character: There is no 추 in font [lmmono10-italic]:!
+Missing character: There is no 정 in font [lmmono10-italic]:!
+Missing character: There is no 치 in font [lmmono10-italic]:!
+[16]
+Missing character: There is no 신 in font [lmmono10-italic]:!
+Missing character: There is no 뢰 in font [lmmono10-italic]:!
+Missing character: There is no 수 in font [lmmono10-italic]:!
+Missing character: There is no 준 in font [lmmono10-italic]:!
+Missing character: There is no 각 in font [lmmono10-italic]:!
+Missing character: There is no 신 in font [lmmono10-italic]:!
+Missing character: There is no 뢰 in font [lmmono10-italic]:!
+Missing character: There is no 구 in font [lmmono10-italic]:!
+Missing character: There is no 간 in font [lmmono10-italic]:!
+Missing character: There is no 종 in font [lmmono10-italic]:!
+Missing character: There is no 류 in font [lmmono10-italic]:!
+Missing character: There is no 별 in font [lmmono10-italic]:!
+Missing character: There is no 로 in font [lmmono10-italic]:!
+Missing character: There is no 신 in font [lmmono10-italic]:!
+Missing character: There is no 뢰 in font [lmmono10-italic]:!
+Missing character: There is no 구 in font [lmmono10-italic]:!
+Missing character: There is no 간 in font [lmmono10-italic]:!
+Missing character: There is no 을 in font [lmmono10-italic]:!
+Missing character: There is no 직 in font [lmmono10-italic]:!
+Missing character: There is no 접 in font [lmmono10-italic]:!
+Missing character: There is no 계 in font [lmmono10-italic]:!
+Missing character: There is no 산 in font [lmmono10-italic]:!
+Missing character: There is no 하 in font [lmmono10-italic]:!
+Missing character: There is no 여 in font [lmmono10-italic]:!
+Missing character: There is no 출 in font [lmmono10-italic]:!
+Missing character: There is no 력 in font [lmmono10-italic]:!
+Missing character: There is no 하 in font [lmmono10-italic]:!
+Missing character: There is no 는 in font [lmmono10-italic]:!
+Missing character: There is no 코 in font [lmmono10-italic]:!
+Missing character: There is no 드 in font [lmmono10-italic]:!
+Missing character: There is no 를 in font [lmmono10-italic]:!
+Missing character: There is no 짬 in font [lmmono10-italic]:!
+Missing character: There is no 는 in font [lmmono10-italic]:!
+Missing character: There is no 순 in font [lmmono10-italic]:!
+Missing character: There is no 서 in font [lmmono10-italic]:!
+Missing character: There is no 바 in font [lmmono10-italic]:!
+Missing character: There is no 꾸 in font [lmmono10-italic]:!
+Missing character: There is no 는 in font [lmmono10-italic]:!
+Missing character: There is no 거 in font [lmmono10-italic]:!
+Missing character: There is no 위 in font [lmmono10-italic]:!
+Missing character: There is no 의 in font [lmmono10-italic]:!
+Missing character: There is no 결 in font [lmmono10-italic]:!
+Missing character: There is no 과 in font [lmmono10-italic]:!
+Missing character: There is no 를 in font [lmmono10-italic]:!
+Missing character: There is no 이 in font [lmmono10-italic]:!
+Missing character: There is no 용 in font [lmmono10-italic]:!
+Missing character: There is no 하 in font [lmmono10-italic]:!
+Missing character: There is no 여 in font [lmmono10-italic]:!
+Missing character: There is no 계 in font [lmmono10-italic]:!
+Missing character: There is no 산 in font [lmmono10-italic]:!
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 797.
+[18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 797.
+(./Final_Homework.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 797.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 797.
+Package rerunfilecheck Info: File `Final_Homework.out' has not changed.
+(rerunfilecheck)             Checksum: A1834BD226B3C9168AB57653D96BF7DC.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23889 strings out of 492933
- 445475 string characters out of 6134841
- 572644 words of memory out of 5000000
- 27711 multiletter control sequences out of 15000+600000
- 545065 words of font info for 55 fonts, out of 8000000 for 9000
+ 24119 strings out of 492933
+ 449957 string characters out of 6134841
+ 581718 words of memory out of 5000000
+ 27913 multiletter control sequences out of 15000+600000
+ 557109 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,6n,116p,814b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,18n,116p,873b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on stat_caculate_mid.pdf (3 pages).
+Output written on Final_Homework.pdf (18 pages).
